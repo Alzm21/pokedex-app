@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Sedgwick+Ave+Display&display=swap');
+
+.homepage_container {
+    height: 100vh;
+    width: auto;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 300px 0px 0px;
+}
+
+.homepage_title {
+    font-family: "Sedgwick Ave Display", cursive;
+    padding: 50px 0px 0px;
+}
+
+.homepage_subtitle {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.homepage_form {
+    padding: 60px 0px 0px;
+    display: flex;
+}
+.homepage_form input {
+    height: 50px;
+    width: 450px;
+    border-color: rgba(182, 182, 182, 0.349);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    position: relative;
+    padding: 0px 0px 0px 20px;
+}
+.homepage_form input::placeholder{ 
+    color: #b4b4b4;
+    font-style: italic;
+    position: absolute;
+    left: 20px;
+    bottom: 10px;
+}
+.homepage_form button {
+    height: 50px;
+    width: 170px;
+    background-color: rgb(231, 0, 0);
+    border: none;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.color_container{
+    margin-top: 140px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.lowred {
+    width: 100%;
+    height: 100px;
+    background-color: red;
+}
+.lowblack {
+    width: 100%;
+    height: 60px;
+    background-color: black;
+}
+
+.circleblack {
+    height: 120px;
+    width: 120px;
+    background-color: black;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 0px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.circlewhite {
+    height: 90px;
+    width: 90px;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 15px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 10;
+}
+.dotblack {
+    height: 70px;
+    width: 70px;
+    background-color: rgb(41, 41, 41);
+    border: solid 10px;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 25px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 12;
+}

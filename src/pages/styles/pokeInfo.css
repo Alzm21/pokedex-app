@@ -1,0 +1,213 @@
+.pokeinfo_container {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    gap: 20px 0;
+}
+
+.first_section {
+    background-color: white;
+    border: none;
+    box-shadow: 1px 1px 15px gray;
+    width: 85%;
+    height: 100%;
+    padding: 60px 0;
+}
+.pokeinfnam_container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    width: 100%;
+}
+.pokeinfo_img {
+    width: 190px;
+    height: 100%;
+    position: absolute;
+    top: 230px;
+}
+.pokeinfo_id{
+    margin-top: 120px;
+    border: 1px solid #979797;
+    border-radius: 10%;
+    width: 50px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pokeinfo_name{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Courier New', Courier, monospace;
+    color: black;
+}
+.pokehr {
+    width: 190px;
+    height: 0;
+    margin: 15px;
+    border-style: ridge;
+}
+.wehe_stats{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    gap: 10px 100px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.skilltype_container{
+    display: flex;
+    justify-content: center;
+    margin: 30px 0;
+    gap: 3em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.types_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 20%;
+}
+.skills_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 20%;
+}
+.types{
+    display: flex;
+    flex-wrap: wrap;
+    width: 400px;
+    justify-content: center;
+    margin: 30px 10px;
+    gap: 5px;
+}
+.types li {
+    margin: 0 20px;
+    background-color: darkgrey;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 5%;
+    width: 35%;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.skills{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 400px;
+    margin: 30px 10px;
+    gap: 5px;
+}
+.skills li {
+    margin: 0 20px;
+    background-color: darkgrey;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 5%;
+    width: 35%;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.stats_container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.stats_title {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 35px;
+    width: 100%;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 25px;
+}
+.stats_title hr {
+    width: 70%;
+    height: 0;
+    display: flex;
+    align-items: center;
+    border-style: groove;
+}
+.pokeinfo_stats {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.pokeinfo_stats li {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.stat_name {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.stat_name span {
+    margin: 10px 5px;
+}
+.stats_bar {
+    width: 80%;
+    height: 30px;
+    background-color: grey;
+}
+.stats_prog {
+    background: linear-gradient(0.25turn, #ffda62, #ff8c49);
+    height: 100%;
+}
+
+.second_section {
+    background-color: white;
+    border: none;
+    box-shadow: 1px 1px 15px gray;
+    width: 85%;
+    height: 100%;
+    padding: 50px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.movement_title{
+    padding: 0 90px ;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+}
+
+.movements {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    justify-items: center;
+    gap: 50px 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.movements li {
+    width: 150px;
+    height: 50px;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #d8d8d8;
+}
