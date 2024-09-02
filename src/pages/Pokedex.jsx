@@ -52,7 +52,7 @@ const Pokedex = () => {
     <section className='pokedex_container'>
       <div className='header_container'>
         <figure className='header_img'>
-          <img src="public\images\pokedex.png" alt="" />
+          <img src="\images\pokedex.png" alt="" />
         </figure>
         <div className='red_line'></div>
         <div className='black_line'></div>
