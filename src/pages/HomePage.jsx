@@ -23,7 +23,7 @@ const HomePage = () => {
   return (
     <div className='homepage_container'>
       <figure>
-        <img src="src\images\pokedex.png" alt="pokedex.png" />
+        <img src='public\images\pokedex.png' alt="pokedex.png" />
       </figure>
         <h1 className='homepage_title'>Hello trainer!</h1>
         <h3 className='homepage_subtitle'>If you want to start, give me your name:</h3>

@@ -24,7 +24,7 @@ const PokeInfo = () => {
     <section className='pokeinfo_container'>
         <div className='header_container'>
           <figure className='header_img'>
-            <img src="src\images\pokedex.png" alt="" />
+            <img src="src\pages\images\pokedex.png" alt="" />
           </figure>
           <div className='red_line'></div>
           <div className='black_line'></div>
