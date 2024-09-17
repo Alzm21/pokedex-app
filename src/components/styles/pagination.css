@@ -20,3 +20,8 @@
     background-color: red;
     transition: 200ms;
 }
+ .pagination_container .active_page {
+    background-color: lightcoral;
+    color: white;
+    
+ }

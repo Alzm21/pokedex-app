@@ -9,13 +9,11 @@ const useFetch = () => {
                 if (res.data && res.data) {
                     setApiData(res.data)
                 } else {
-                    console.log('Unexpected response format:', res.data)
-                    
+                    console.log('Unexpected response format:', res.data) 
                 }
             })
             .catch(err => {
                 console.error('Error fetching data:', err)
-               
             })
     }
     const getType= (url) => {
@@ -25,9 +23,7 @@ const useFetch = () => {
             }))
             .catch(err => {
                 console.error('Error fetching data:', err)
-
-            })
-            
+            })         
     }
     return [apiData, getApi, getType]
 }

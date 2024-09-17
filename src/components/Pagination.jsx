@@ -30,14 +30,13 @@ const Pagination = ({ totalPosts, postsPerPage, paginate }) => {
       {pageNumbers.map(number => (
         <button
           key={number}
-          
+          className={number === activePage ? 'active_page' : ''} //Thernary condition to identify the active page
           onClick={() => handlePaginationClick(number)}
         >
           {number}
         </button>
       ))}
       <button
-        
         onClick={() => handlePaginationClick(activePage + 1)}
         disabled={activePage === pageNumbers.length}
       >
